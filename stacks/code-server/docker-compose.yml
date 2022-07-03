@@ -8,15 +8,15 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - PASSWORD= "${VS_CODE_PASSWORD}" #optional
+      - PASSWORD= ${VS_CODE_PASSWORD} #optional
       - HASHED_PASSWORD= #optional
-      - SUDO_PASSWORD= "${VS_CODE_SUDO_PASSWORD}" #optional
+      - SUDO_PASSWORD= ${VS_CODE_SUDO_PASSWORD} #optional
       - SUDO_PASSWORD_HASH= #optional
-      - PROXY_DOMAIN= "${DOMAIN_NAME}" #optional
+      - PROXY_DOMAIN= ${DOMAIN_NAME} #optional
       - DEFAULT_WORKSPACE=/config/workspace #optional
     volumes:
-      - "${CONFIG_PATH}":/config
-      - "${GRAV_PAGES_PATH}":/config/workspace/grav
+      - ${CONFIG_PATH}:/config
+      - ${GRAV_PAGES_PATH}:/config/workspace/grav
     ports:
-      - "${HTTPS_PORT}":8443
+      - ${HTTPS_PORT}:8443
     restart: unless-stopped
