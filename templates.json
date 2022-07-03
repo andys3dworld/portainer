@@ -9,8 +9,8 @@
       "platform": "linux",
       "logo": "",
       "repository": {
-        "url": "https://github.com/portainer/templates",
-        "stackfile": "stacks/dokku/docker-compose.yml"
+        "url": "https://github.com/andys3dworld/portainer/templates/stacks/dokku",
+        "stackfile": "docker-compose.yml"
       },
       "env": [
         {
