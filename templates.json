@@ -82,16 +82,24 @@
           "default": "password"
         },
         {
-          "name": "DOMAIN_NAME"
+          "name": "DOMAIN_NAME",
+          "label": "DOMAIN_NAME",
+          "default": "code-server.moose"
         },
         {
-          "name": "CONFIG_PATH"
+          "name": "CONFIG_PATH",
+          "label": "CONFIG_PATH",
+          "default": "/virt/code-server/config"
         },
         {
-          "name": "GRAV_PAGES_PATH"
+          "name": "GRAV_PAGES_PATH",
+          "label": "GRAV_PAGES_PATH",
+          "default": "/virt/grav/config/www/user/pages"
         },
         {
-          "name": "HTTPS_PORT"
+          "name": "HTTPS_PORT",
+          "label": "HTTPS_PORT",
+          "default": "8443"
         }
       ]
     }
