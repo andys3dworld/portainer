@@ -18,5 +18,5 @@ services:
       ${CONFIG_PATH}:/config
       ${GRAV_PAGES_PATH}:/config/workspace/grav
     ports:
-      ${HTTPS_PORT}:8443
+      - ${HTTPS_PORT}:8443
     restart: unless-stopped
