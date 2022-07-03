@@ -15,8 +15,8 @@ services:
       PROXY_DOMAIN: ${DOMAIN_NAME} #optional
       DEFAULT_WORKSPACE: /config/workspace #optional
     volumes:
-      ${CONFIG_PATH}:/config
-      ${GRAV_PAGES_PATH}:/config/workspace/grav
+      - ${CONFIG_PATH}:/config
+      - ${GRAV_PAGES_PATH}:/config/workspace/grav
     ports:
       - ${HTTPS_PORT}:8443
     restart: unless-stopped
