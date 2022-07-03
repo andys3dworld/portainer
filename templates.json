@@ -97,6 +97,12 @@
           "label": "dashy icons folder",
           "description": "icons folder",
           "default": "/virt/dashy/icons"
+        },
+        {
+          "name": "DASHY_PORT",
+          "label": "dashy port map",
+          "description": "port remap",
+          "default": "4000"
         }
       ]
     }
