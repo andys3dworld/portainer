@@ -50,7 +50,7 @@
     },
     {
       "type": 2,
-      "title": "grav",
+      "title": "Grav",
       "description": "Grav simple web",
       "note": "grav!",
       "categories": ["andys3dworld"],
@@ -71,6 +71,32 @@
           "label": "http port",
           "description": "port remapping",
           "default": "3001"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "title": "Dashy",
+      "description": "Dashy Dashboard",
+      "note": "dashy!",
+      "categories": ["andys3dworld"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/andys3dworld/portainer",
+        "stackfile": "stacks/dashy/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "DASHY_CONFIG",
+          "label": "config path to file",
+          "description": "point at config file",
+          "default": "/virt/dashy/config.yml"
+        },
+        {
+          "name": "DASHY_ICONS",
+          "label": "dashy icons folder",
+          "description": "icons folder",
+          "default": "/virt/dashy/icons"
         }
       ]
     }
