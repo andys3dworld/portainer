@@ -9,8 +9,8 @@
       "platform": "linux",
       "logo": "",
       "repository": {
-        "url": "https://github.com/andys3dworld/portainer/templates/stacks/dokku",
-        "stackfile": "docker-compose.yml"
+        "url": "https://github.com/andys3dworld/portainer",
+        "stackfile": "templates/stacks/dokku/docker-compose.yml"
       },
       "env": [
         {
@@ -65,8 +65,8 @@
       "platform": "linux",
       "logo": "https://code.visualstudio.com/assets/branding/app-icon.png",
       "repository": {
-        "url": "https://github.com/andys3dworld/portainer/templates/stacks/code-server",
-        "stackfile": "docker-compose.yml"
+        "url": "https://github.com/andys3dworld/portainer",
+        "stackfile": "templates/stacks/code-server/docker-compose.yml"
       },
       "env": [
         {
