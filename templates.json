@@ -12,8 +12,9 @@
       "repository": {
         "url": "https://github.com/andys3dworld/portainer/templates/stacks/dokku",
         "stackfile": "docker-compose.yml"
-      },
-      {
+      }
+    },
+    {
       "type": 2,
       "title": "code-server",
       "description": "VS Code server",
