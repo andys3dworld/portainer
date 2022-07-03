@@ -55,10 +55,9 @@
       "note": "grav!",
       "categories": ["andys3dworld"],
       "platform": "linux",
-      "logo": "https://code.visualstudio.com/assets/branding/app-icon.png",
       "repository": {
         "url": "https://github.com/andys3dworld/portainer",
-        "stackfile": "stacks/code-server/docker-compose.yml"
+        "stackfile": "stacks/grav/docker-compose.yml"
       },
       "env": [
         {
