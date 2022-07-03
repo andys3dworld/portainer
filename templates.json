@@ -6,7 +6,7 @@
       "title": "AAA_TEST",
       "description": "testy",
       "note": "this is a test.",
-      "categories": ["docker"],
+      "categories": ["andys3dworld"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ironfunctions.png",
       "repository": {
