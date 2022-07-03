@@ -2,7 +2,7 @@
   "version": "2",
   "templates": [
     {
-      "type": 2,
+      "type": 3,
       "title": "Dokku",
       "description": "Dokku setup as a compose file",
       "categories": ["PaaS"],
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "type": 2,
+      "type": 3,
       "title": "code-server",
       "description": "VS Code server",
       "note": "code it!.",
