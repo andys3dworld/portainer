@@ -3,61 +3,6 @@
   "templates": [
     {
       "type": 2,
-      "title": "Dokku",
-      "description": "Dokku setup as a compose file",
-      "categories": ["PaaS"],
-      "platform": "linux",
-      "logo": "",
-      "repository": {
-        "url": "https://github.com/andys3dworld/portainer",
-        "stackfile": "stacks/dokku/docker-compose.yml"
-      },
-      "env": [
-        {
-          "name": "VERSION",
-          "label": "Dokku version",
-          "description": "Version of Dokku to use ('latest' if empty)",
-          "default": "latest"
-        },
-        {
-          "name": "DOKKU_HOSTNAME",
-          "label": "Dokku hostname",
-          "description": "Global hostname to be registered by Dokku"
-        },
-        {
-          "name": "VOLUME_PATH",
-          "label": "Dokku volume path",
-          "description": "Host path to be bound to /mnt/dokku (`/var/lib/dokku` if empty)",
-          "default": "/var/lib/dokku"
-        },
-        {
-          "name": "DOKKU_HOST_ROOT",
-          "label": "Dokku host root",
-          "description": "Image build cache path. Generally set to <data dir> + '/home/dokku'",
-          "default": "/var/lib/dokku/home/dokku"
-        },
-        {
-          "name": "SSH_PORT",
-          "label": "SSH port",
-          "description": "Host port to expose SSH port of Dokku (22 if empty)",
-          "default": "22"
-        },
-        {
-          "name": "HTTP_PORT",
-          "label": "HTTP port",
-          "description": "Host port to expose HTTP port of Dokku (80 if empty)",
-          "default": "80"
-        },
-        {
-          "name": "HTTPS_PORT",
-          "label": "HTTPS port",
-          "description": "Host port to expose HTTPS port of Dokku (443 if empty)",
-          "default": "443"
-        }
-      ]
-    },
-    {
-      "type": 2,
       "title": "code-server",
       "description": "VS Code server",
       "note": "code it!.",
@@ -100,6 +45,33 @@
           "name": "HTTPS_PORT",
           "label": "HTTPS_PORT",
           "default": "8443"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "title": "grav",
+      "description": "Grav simple web",
+      "note": "grav!",
+      "categories": ["andys3dworld"],
+      "platform": "linux",
+      "logo": "https://code.visualstudio.com/assets/branding/app-icon.png",
+      "repository": {
+        "url": "https://github.com/andys3dworld/portainer",
+        "stackfile": "stacks/code-server/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "GRAV_CONFIG_PATH",
+          "label": "config path",
+          "description": "point at config path",
+          "default": "/virt/grav/config"
+        },
+        {
+          "name": "HTTP_PORT",
+          "label": "http port",
+          "description": "port remapping",
+          "default": "3001"
         }
       ]
     }
