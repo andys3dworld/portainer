@@ -2,6 +2,19 @@
   "version": "2",
   "templates": [
     {
+      "type": 2,
+      "title": "AAA_TEST",
+      "description": "testy",
+      "note": "this is a test.",
+      "categories": ["docker"],
+      "platform": "linux",
+      "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ironfunctions.png",
+      "repository": {
+        "url": "https://github.com/andys3dworld/portainer/templates/stacks/dokku",
+        "stackfile": "docker-compose.yml"
+      }
+    },
+    {
       "type": 1,
       "title": "Registry",
       "description": "Docker image registry",
