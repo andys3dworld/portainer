@@ -71,13 +71,13 @@
       "env": [
         {
           "name": "VS_CODE_PASSWORD",
-          "label": "password,
+          "label": "password",
           "description": "password",
           "default": "password"
         },
         {
           "name": "VS_CODE_SUDO_PASSWORD",
-          "label": "sudo password,
+          "label": "sudo password",
           "description": "sudo password",
           "default": "password"
         },
