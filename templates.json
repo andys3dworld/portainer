@@ -21,7 +21,7 @@
       "note": "code it!.",
       "categories": ["andys3dworld"],
       "platform": "linux",
-      "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ironfunctions.png",
+      "logo": "https://code.visualstudio.com/assets/branding/app-icon.png",
       "repository": {
         "url": "https://github.com/andys3dworld/portainer/templates/stacks/code-server",
         "stackfile": "docker-compose.yml"
