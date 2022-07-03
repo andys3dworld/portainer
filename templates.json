@@ -67,7 +67,33 @@
       "repository": {
         "url": "https://github.com/andys3dworld/portainer/templates/stacks/code-server",
         "stackfile": "docker-compose.yml"
-      }
+      },
+      "env": [
+        {
+          "name": "VS_CODE_PASSWORD",
+          "label": "password,
+          "description": "password",
+          "default": "password"
+        },
+        {
+          "name": "VS_CODE_SUDO_PASSWORD",
+          "label": "sudo password,
+          "description": "sudo password",
+          "default": "password"
+        },
+        {
+          "name": "DOMAIN_NAME"
+        },
+        {
+          "name": "CONFIG_PATH"
+        },
+        {
+          "name": "GRAV_PAGES_PATH"
+        },
+        {
+          "name": "HTTPS_PORT"
+        }
+      ]
     }
   ]
 }
